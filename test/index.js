@@ -11,7 +11,7 @@ describe('fn-ternary', function () {
     }
     assert(ternary(fn)() == 3);
   });
-  it('third argument should be undefined', function () {
+  it('fourth argument should be undefined', function () {
     var fn = function (a, b, c, d) {
       return typeof d;
     }
