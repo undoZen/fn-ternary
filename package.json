@@ -1,0 +1,25 @@
+{
+  "name": "fn-ternary",
+  "version": "1.0.0",
+  "description": "wrap a function to accept only two argument",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/undoZen/fn-ternary.git"
+  },
+  "keywords": [
+    "functional"
+  ],
+  "author": "undoZen <opensource@undozen.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/undoZen/fn-ternary/issues"
+  },
+  "homepage": "https://github.com/undoZen/fn-ternary",
+  "devDependencies": {
+    "mocha": "^1.18.2"
+  }
+}
